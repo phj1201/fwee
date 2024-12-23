@@ -153,16 +153,7 @@ header .header-bottom .gnb a {
     
 }
 
-
-.header-bottom nav .gnb {
-   /*  outline: 2px solid green; */
-    
-}
-
 .header-bottom nav .gnb>li {
-     outline: 2px solid darkslateblue;
-    /* float: left; */
-    
     text-align: center;
 }
 
@@ -184,7 +175,6 @@ header .header-bottom .gnb a {
 /* lnb **************************************************** */
 
 .header-bottom nav .lnb {
-    /* outline: 2px solid red; */
 
     display: none;
     overflow: hidden;
@@ -195,7 +185,6 @@ header .header-bottom .gnb a {
 
     position: absolute;
     top: 90%;
-    
 }
 
 .header-bottom nav .lnb li {

@@ -367,8 +367,6 @@ section .con2 .tit-txt p {
     width: 1130px;
     margin: 0 auto px;
     margin-bottom: 200px;
-
-    overflow: hidden;
 }
 
 .con4 .tit-txt {
@@ -388,18 +386,25 @@ section .con2 .tit-txt p {
     color: #333;
 }
 
+.reels-wrap {
+    position: relative;
+}
+
 .reels-box {
-    /* outline: 4px solid green; */
-    width: 2400px;  
+    outline: 4px solid green;
+    width: 1130px;  
+    
+    
 }
 
 .reels-box .shorts {
     /* outline: 1px solid blue; */
     width: 360px;
-    margin-right: 25px;
+    margin-right: 16px;
 }
 
 .reels-box .shorts:last-child {
+    margin-left: 0;
     margin-right: 0;
 }
 
@@ -410,11 +415,42 @@ section .con2 .tit-txt p {
 
 .reels-box .shorts {
     position: relative;
+    outline: 2px solid red;
 }
+
 
 .reels-box .shorts .play-btn {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.reels-box .add {
+    display: none;
+}
+
+.next-btn .btn {
+    display: inline-block;
+    outline: 1px solid blue;
+}
+
+
+.next-btn .btn .left {
+    
+    float: left;
+
+    position: absolute;
+    top: 36%;
+    left: -15%;
+
+}
+
+.next-btn .btn .right {
+    outline: 2px solid red;
+    float: right;
+
+    position: absolute;
+    top: 36%;
+    right: -15%;
 }
