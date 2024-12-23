@@ -51,7 +51,7 @@ li {
 */
 
 @font-face {
-    font-family: 'Norman';
+    font-family: 'Norman Regular';
     src: url('font/Norman.eot');
     src: url('font/Norman.eot') format('embedded-opentype'), url('font/Norman.woff') format('woff'), url('font/Norman.woff2')format('woff2');
 }
@@ -89,8 +89,8 @@ header .header-top h1 {
     transform: translateX(-50%);
 }
 
-.header-top .logo {
-    /* outline: 1px solid rgb(0, 255, 255); */
+.header-top .logo a {
+    
     width: 120px;
     height: 50px;
 
@@ -98,7 +98,12 @@ header .header-top h1 {
     background: url(../img/fwee_logo.png) no-repeat center;
     background-size: contain;
 
-    font-size: 0;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 0px;
 }
 
 header .header-top .info {

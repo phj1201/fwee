@@ -1,9 +1,10 @@
 //index.js
 
-//header-bottom (drop-down 메뉴)
+
 
 
 $(document).ready(function () {
+    //header-bottom (drop-down 메뉴)
 
     $('.header-bottom .gnb li').hover(function () {
 
@@ -16,4 +17,9 @@ $(document).ready(function () {
 
     });
 
+    //mouseenter/leave 사진이미지 변환
+
+   
+
 });
+

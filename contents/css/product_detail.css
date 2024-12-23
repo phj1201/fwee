@@ -36,18 +36,20 @@ section article.left {
 }
 
 .left .wrap {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     margin-top: 200px;
     width: 100%;
 }
 
 .left .wrap .slider {
-    outline: 2px solid green;
+   /*  outline: 2px solid green; */
     width: 480px;
     height: 600px;
     border-radius: 30px;
     overflow: hidden;
     margin: 0 auto;
+
+    box-shadow: -5px 5px 10px #d9d9d9;
 }
 
 
@@ -59,7 +61,7 @@ section article.left {
 .wrap .list-btn {}
 
 .wrap .list-btn ul {
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     display: inline-block;
     position: relative;
     left: 50%;
@@ -68,7 +70,7 @@ section article.left {
 }
 
 .wrap .list-btn ul li {
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     font-size: 16px;
     text-align: center;
     position: relative;
@@ -82,15 +84,13 @@ section article.left {
 .wrap .list-btn ul li a {
     width: 100%;
     color: #fff;
-    outline: 2px solid blue;
+   /*  outline: 2px solid blue; */
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-.wrap .list-btn ul li img {}
-
 
 .wrap .fav {
     background-color: #0095D3;
@@ -112,7 +112,7 @@ section article.left {
 }
 
 .wrap .review-wrap .review {
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     display: inline-block;
     position: relative;
     left: 50%;
@@ -120,7 +120,7 @@ section article.left {
 }
 
 .wrap .review-wrap .review li {
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     margin-right: 10px;
 }
 
@@ -136,8 +136,7 @@ section article.left {
 
 
 .wrap .btn .left {
-    outline: 2px solid red;
-    float: left;
+    /* outline: 2px solid red; */
     width: 50px;
     display: inline-block;
 
@@ -148,7 +147,7 @@ section article.left {
 }
 
 .wrap .btn .right {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     float: right;
     width: 50px;
 
@@ -157,7 +156,6 @@ section article.left {
     right: 0%;
     transform: translateY(-50%);
 }
-
 
 .wrap .review-txt {
     width: 530px;
@@ -204,11 +202,9 @@ section article.left {
     transform: translateX(-50%);
 }
 
-
 .wrap .review-wrap .more-btn:hover {
     background-color: #C8183E;
 }
-
 
 .wrap .more-btn a {
     color: #fff;
@@ -278,8 +274,6 @@ section .right .sec-txt .stock {
     font-size: 16px;
     color: #797878;
 }
-
-section .right .sec-option {}
 
 section .right .sec-option p {
     font-size: 16px;
@@ -359,7 +353,7 @@ section .right .sec-option p {
 }
 
 .right .sec-option .color-img {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     width: 350px;
     height: 350px;
     overflow: hidden;
@@ -417,14 +411,14 @@ section .right .sec-option p {
     color: #C8183E;
 }
 
-.right .sec-option .btn ul {
-    outline: 2px solid green;
+.right .sec-option .btn ul { 
     display: inline-block;
     position: absolute;
     top: 15%;
 }
 
 .right .sec-option .btn ul li {
+    /* outline: 2px solid green; */
     display: inline-block;
     width: 25px;
     margin-right: 10px;
@@ -436,17 +430,17 @@ section .right .sec-option p {
 }
 
 .right .sec-option .others-wrap h3 {
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     margin-bottom: 20px;
 }
 
 .others-wrap .others {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     width: 400px;
 }
 
 .others-wrap .others .others-box {
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     float: left;
 
     width: 145px;
@@ -481,7 +475,6 @@ section .right .sec-option p {
 
 .others-wrap .others .others-box .others-des {
     display: inline-block;
-   
 }
 
 
