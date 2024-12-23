@@ -139,7 +139,7 @@ header .header-top .sns a {
 
 header .header-bottom {
     background-color: #0095D3;
-    padding: 12px 0;
+    /* padding: 10px 0; */
     text-align: center;
 }
 
@@ -150,15 +150,70 @@ header .header-bottom .gnb {
 header .header-bottom .gnb a {
     color: #fff;
     font-size: 18px;
-    margin-right: 40px;
+    
 }
 
-header .header-bottom .gnb a:last-child {
-    margin-right: 0;
+
+.header-bottom nav .gnb {
+   /*  outline: 2px solid green; */
+    
 }
 
-header .header-bottom .gnb a:hover {
+.header-bottom nav .gnb>li {
+     outline: 2px solid darkslateblue;
+    /* float: left; */
+    
+    text-align: center;
+}
+
+.header-bottom nav .gnb>li~li {
+    margin-left: 40px;
+}
+
+.header-bottom nav .gnb>li>a {
+    line-height: 60px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.header-bottom nav .gnb>li>a:hover {
     color: #C8183E;
+}
+
+/* lnb **************************************************** */
+
+.header-bottom nav .lnb {
+    /* outline: 2px solid red; */
+
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #d9d9d9;
+    width: 150px;
+
+    position: absolute;
+    top: 90%;
+    
+}
+
+.header-bottom nav .lnb li {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px;
+    float: none;
+}
+
+.header-bottom nav .lnb li a {
+    color: #666;
+    font-size: 15px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+.header-bottom nav .lnb li a:hover {
+    color: #0095D3;
+    font-weight: 600;
 }
 
 /* footer***************************************************** */
@@ -178,7 +233,7 @@ footer .inner {
 
 footer::after {
     content: "";
-    display:block;
+    display: block;
     clear: both;
 }
 
@@ -201,7 +256,7 @@ footer .footer-top::after {
 footer .footer-top img {
     margin-right: 50px;
     display: block;
-    width : 120px;
+    width: 120px;
 }
 
 footer .footer-top .link {
@@ -235,4 +290,3 @@ footer .footer-bottom p a {
 footer .footer-bottom .caption {
     margin: 40px 0;
 }
-
