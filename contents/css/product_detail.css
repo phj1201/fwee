@@ -181,8 +181,6 @@ section article.left {
     margin-right: 8px;
 }
 
-.wrap .review-txt .review-des {}
-
 .wrap .review-txt .review-des .user-info {
     margin-top: 20px;
     background-color: white;
@@ -206,9 +204,14 @@ section article.left {
     transform: translateX(-50%);
 }
 
+
+.wrap .review-wrap .more-btn:hover {
+    background-color: #C8183E;
+}
+
+
 .wrap .more-btn a {
     color: #fff;
-
 }
 
 .wrap .detail-img {
@@ -234,7 +237,7 @@ section article.right {
 
 
     position: sticky;
-    top: 200px;
+    top: 110px;
     /* 부모 공간 안에서 고정될 위치 */
 }
 
@@ -245,6 +248,7 @@ section article.right h2 {
 
 section .right .sec-txt {
     line-height: 28px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -260,7 +264,7 @@ section .right .sec-txt .txt1 span {
 section .right .sec-txt .price {
     color: #0095D3;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section .right .sec-txt .price span {
@@ -295,6 +299,65 @@ section .right .sec-option p {
     background-color: tomato;
 }
 
+.right .sec-option .color-chart .c1 {
+    background-color: #EB6C80;
+    outline: 3px solid #0095D3;
+}
+.right .sec-option .color-chart .c2 {
+    background-color: #F9738E;
+}
+.right .sec-option .color-chart .c3 {
+    background-color: #E876A2;
+}
+.right .sec-option .color-chart .c4 {
+    background-color: #CD2266;
+}
+.right .sec-option .color-chart .c5 {
+    background-color: #EE4954;
+}
+.right .sec-option .color-chart .c6 {
+    background-color: #E85F7B;
+}
+.right .sec-option .color-chart .c7 {
+    background-color: #EB5487;
+}
+.right .sec-option .color-chart .c8 {
+    background-color: #DB2A44;
+}
+.right .sec-option .color-chart .c9 {
+    background-color: #DB2A44;
+}
+.right .sec-option .color-chart .c10 {
+    background-color: #EC91B4;
+}
+.right .sec-option .color-chart .c11 {
+    background-color: #C36065;
+}
+.right .sec-option .color-chart .c12 {
+    background-color: #842E37;
+}
+.right .sec-option .color-chart .c13 {
+    background-color: #CD5680;
+}
+.right .sec-option .color-chart .c14 {
+    background-color: #EAC5CC;
+}
+.right .sec-option .color-chart .c15 {
+    background-color: #DA8DBB;
+}
+.right .sec-option .color-chart .c16 {
+    background-color: #E17072;
+}
+.right .sec-option .color-chart .c17 {
+    background-color: #B1375C;
+}
+.right .sec-option .color-chart .c18 {
+    background-color: #B0365B;
+}
+.right .sec-option .color-chart .c19 {
+    background-color: #B96B79;
+}
+
 .right .sec-option .color-img {
     outline: 2px solid red;
     width: 350px;
@@ -308,7 +371,6 @@ section .right .sec-option p {
     border-radius: 20px;
     width: 350px;
     height: 350px;
-
 }
 
 .right .sec-option .color-img .color-box p {
@@ -333,7 +395,9 @@ section .right .sec-option p {
     width: 350px;
 }
 
-.right .sec-option .btn {}
+.right .sec-option .btn {
+    position: relative;
+}
 
 .right .sec-option .btn p {
     background-color: #0095D3;
@@ -349,9 +413,15 @@ section .right .sec-option p {
     color: #fff;
 }
 
+.right .sec-option .btn p a:hover {
+    color: #C8183E;
+}
+
 .right .sec-option .btn ul {
     outline: 2px solid green;
     display: inline-block;
+    position: absolute;
+    top: 15%;
 }
 
 .right .sec-option .btn ul li {
@@ -367,7 +437,6 @@ section .right .sec-option p {
 
 .right .sec-option .others-wrap h3 {
     outline: 2px solid green;
-    
     margin-bottom: 20px;
 }
 

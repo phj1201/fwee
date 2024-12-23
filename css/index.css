@@ -269,6 +269,11 @@ section .con2 .tit-txt p {
    
 }
 
+.con3 .evt-wrap .evt-review:hover img {
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+
 .con3 .evt-wrap .evt-review img {
     display: block;
     border-radius: 20px; 
@@ -365,7 +370,7 @@ section .con2 .tit-txt p {
 
 .con4 {
     width: 1130px;
-    margin: 0 auto px;
+    margin: 0 auto;
     margin-bottom: 200px;
 }
 
@@ -391,21 +396,15 @@ section .con2 .tit-txt p {
 }
 
 .reels-box {
-    outline: 4px solid green;
-    width: 1130px;  
-    
-    
+    /* outline: 1px solid green; */
+    width: 1130px;
 }
 
 .reels-box .shorts {
     /* outline: 1px solid blue; */
     width: 360px;
+    overflow: hidden;
     margin-right: 16px;
-}
-
-.reels-box .shorts:last-child {
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .reels-box .shorts video {
@@ -415,9 +414,8 @@ section .con2 .tit-txt p {
 
 .reels-box .shorts {
     position: relative;
-    outline: 2px solid red;
+/*     outline: 2px solid red; */
 }
-
 
 .reels-box .shorts .play-btn {
     position: absolute;
@@ -432,9 +430,7 @@ section .con2 .tit-txt p {
 
 .next-btn .btn {
     display: inline-block;
-    outline: 1px solid blue;
 }
-
 
 .next-btn .btn .left {
     
@@ -447,7 +443,7 @@ section .con2 .tit-txt p {
 }
 
 .next-btn .btn .right {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     float: right;
 
     position: absolute;
