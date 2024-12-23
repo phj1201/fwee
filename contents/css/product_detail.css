@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+
+section {
+    outline: 2px solid plum;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+section article img {
+    display: block;
+    margin: 0 auto;
+}
+
+section article img:first-child {
+    width: 60%;
+}
+
+section article img:nth-child(2) {
+    width: 80%;
+}
+
+section article img:last-child {
+    width: 100%;
+}
+
+section article.left {
+    float: left;
+    width: 60%;
+}
+
+.left .wrap {
+    outline: 2px solid red;
+    margin-top: 200px;
+    width: 100%;
+}
+
+.left .wrap .slider {
+    outline: 2px solid green;
+    width: 480px;
+    height: 600px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.left .wrap .slider .slider-wrap li img {
+    display: block;
+}
+
+
+.wrap .list-btn {}
+
+.wrap .list-btn ul {
+    outline: 2px solid blue;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.wrap .list-btn ul li {
+    outline: 2px solid blue;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin-right: 30px;
+}
+
+.wrap .list-btn ul li:last-child {
+    margin-right: 0;
+}
+
+.wrap .list-btn ul li a {
+    width: 100%;
+    color: #fff;
+    outline: 2px solid blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap .list-btn ul li img {}
+
+
+.wrap .fav {
+    background-color: #0095D3;
+    display: inline-block;
+    width: 590px;
+    margin: 30px 0;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 30px;
+
+    color: white;
+}
+
+.wrap .review-wrap {
+    position: relative;
+}
+
+.wrap .review-wrap .review {
+    outline: 2px solid green;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrap .review-wrap .review li {
+    outline: 2px solid green;
+    margin-right: 10px;
+}
+
+.wrap .review-wrap .review li:last-child {
+    margin-right: 0;
+}
+
+
+.wrap .review-wrap .review li img {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.wrap .btn .left {
+    outline: 2px solid red;
+    float: left;
+    width: 50px;
+    display: inline-block;
+
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+.wrap .btn .right {
+    outline: 2px solid red;
+    float: right;
+    width: 50px;
+
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+}
+
+
+.wrap .review-txt {
+    width: 530px;
+    display: inline-block;
+    background-color: #e9e9e9;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrap .review-txt .star-rate {
+    margin-bottom: 10px;
+}
+
+.wrap .review-txt .star-rate li {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.wrap .review-txt .review-des {}
+
+.wrap .review-txt .review-des .user-info {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.wrap .review-wrap {
+    position: relative;
+}
+
+.wrap .review-wrap .more-btn {
+    background-color: #0095D3;
+    padding: 10px 50px;
+    margin: 30px 0;
+    border-radius: 30px;
+
+    position: absolute;
+    bottom: -40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrap .more-btn a {
+    color: #fff;
+
+}
+
+.wrap .detail-img {
+    width: 600px;
+    margin: 140px auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+/* right (구매옵션창) ***************************/
+section article.right {
+    float: right;
+    width: 35%;
+
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #fff;
+    border-radius: 30px;
+
+    margin-top: 30px;
+    margin-bottom: 140px;
+
+
+    position: sticky;
+    top: 200px;
+    /* 부모 공간 안에서 고정될 위치 */
+}
+
+section article.right h2 {
+    margin-bottom: 20px;
+    color: #C8183E;
+}
+
+section .right .sec-txt {
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+section .right .sec-txt .txt1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section .right .sec-txt .txt1 span {
+    color: #0095D3;
+}
+
+section .right .sec-txt .price {
+    color: #0095D3;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+section .right .sec-txt .price span {
+    color: #333;
+    text-decoration: line-through;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+section .right .sec-txt .stock {
+    font-size: 16px;
+    color: #797878;
+}
+
+section .right .sec-option {}
+
+section .right .sec-option p {
+    font-size: 16px;
+}
+
+.right .sec-option .color-chart {
+    margin: 10px 0;
+}
+
+.right .sec-option .color-chart .circle {
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: tomato;
+}
+
+.right .sec-option .color-img {
+    outline: 2px solid red;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    
+    position: relative;
+}
+
+.right .sec-option .color-img .color-box img {
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+
+}
+
+.right .sec-option .color-img .color-box p {
+    display: inline-block;
+    background-color: #0095D3;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 20px;
+
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.right .sec-option .color-img .color-box li img{
+    display: block;
+}
+
+.right select {
+    margin: 20px 0;
+    padding: 10px 0;
+    width: 350px;
+}
+
+.right .sec-option .btn {}
+
+.right .sec-option .btn p {
+    background-color: #0095D3;
+    display: inline-block;
+    margin-right: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 30px;
+}
+
+.right .sec-option .btn p a{
+    color: #fff;
+}
+
+.right .sec-option .btn ul {
+    outline: 2px solid green;
+    display: inline-block;
+}
+
+.right .sec-option .btn ul li {
+    display: inline-block;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.right .sec-option .others-wrap {
+    margin-top: 50px;
+    width: 180px;
+}
+
+.right .sec-option .others-wrap h3 {
+    outline: 2px solid green;
+    
+    margin-bottom: 20px;
+}
+
+.others-wrap .others {
+    outline: 2px solid red;
+    width: 400px;
+}
+
+.others-wrap .others .others-box {
+    outline: 2px solid green;
+    float: left;
+
+    width: 145px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.others-wrap .others .others-box .img-box {
+    width: 150px;
+    height: 130px;
+    overflow: hidden;
+    
+    border-radius: 20px;
+    outline: 2px solid blue;
+    position: relative;
+}
+
+.others-wrap .others .others-box .img-box img {
+    width: 100%;
+    display: block;
+}
+
+
+.others-wrap .others .others-box .img-box .heart {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.others-wrap .others .others-box .others-des {
+    display: inline-block;
+   
+}
+
+
+
+

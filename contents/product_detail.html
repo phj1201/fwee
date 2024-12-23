@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-detail</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../contents/css/product_detail.css">
+    <script></script>
+</head>
+
+<body>
+    <!-- 
+        position: sticky;
+        특정 지점에서 요소 고정 (relative + fixed)
+
+        - sticky 속성을 갖는 요소들은 부모 요소안에서만 적용 
+
+        - 부모 요소의 높잇값 안에서 sticky가 고정되므로 부모가 높잇값을 갖고 있어야 함
+          (부모요소에 고정된 높잇값 설정 또는 자식요소의 높이를 읽을 수 있으면 됩니다)
+        - 부모요소중에 overflow 속성이 적용되어 있으면 안됨 
+    -->
+
+    <header>
+
+        <div class="header-top">
+
+            <h1 class="logo"><a href="#">FWEE</a></h1>
+
+            <nav class="info">
+                <a href="#">
+                    <img src="../img/icon_login.png" alt="login">로그인
+                </a>
+
+                <a href="#">
+                    <img src="../img/icon_user.png" alt="mypage">마이페이지
+                </a>
+
+                <a href="#">
+                    <img src="../img/icon_shop.png" alt="shop">장바구니
+                </a>
+            </nav>
+
+            <nav class="sns">
+                <a href="#"><img src="../img/icon_01.png" alt="instagram"></a>
+                <a href="#"><img src="../img/icon_02.png" alt="naver"></a>
+                <a href="#"><img src="../img/icon_03.png" alt="twitter"></a>
+                <a href="#"><img src="../img/icon_04.png" alt="kakaoplus"></a>
+            </nav>
+
+        </div>
+
+        <!--// gnb section ////////////////////////////// -->
+        <div class="header-bottom">
+            <nav class="gnb">
+                <a href="#">BRAND</a>
+                <a href="#">PRODUCT</a>
+                <a href="#">STORE</a>
+                <a href="#">EVENT</a>
+                <a href="#">COMMUNITY</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <section>
+
+        <article class="left">
+
+            <div class="wrap">
+
+                <div class="slider">
+                    <ul class="slider-wrap">
+                        <li><img src="img/product/slide01.png" alt="상품이미지"></li>
+                        <li><img src="img/product/slide02.png" alt="상품이미지"></li>
+                        <li><img src="img/product/slide03.png" alt="상품이미지"></li>
+                    </ul>
+                </div>
+
+                <div class="list-btn">
+
+                    <ul>
+                        <li>
+                            <a href="#">리뷰보기</a>
+                            <img src="img/product/bluejelly_btn.png" alt="">
+                        </li>
+                        <li>
+                            <a href="#">상세정보</a>
+                            <img src="img/product/bluejelly_btn.png" alt="">
+                        </li>
+                        <li>
+                            <a href="#">구매안내</a>
+                            <img src="img/product/bluejelly_btn.png" alt="">
+                        </li>
+                        <li>
+                            <a href="#">상품Q&A</a>
+                            <img src="img/product/bluejelly_btn.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="fav">
+                    ♥︎ 구매자의 96%가 만족한 상품입니다.
+                </p>
+
+                <div class="review-wrap">
+                    <ul class="review">
+                        <li><img src="img/product/review01.png" alt="리뷰1"></li>
+                        <li><img src="img/product/review02.png" alt="리뷰2"></li>
+                        <li><img src="img/product/review03.png" alt="리뷰3"></li>
+                        <li><img src="img/product/review04.png" alt="리뷰4"></li>
+                        <li><img src="img/product/review05.png" alt="리뷰5"></li>
+                    </ul>
+
+                    <ul class="btn">
+                        <li class="left"><img src="img/product/left-btn.png" alt=""></li>
+                        <li class="right"><img src="img/product/right-btn.png" alt=""></li>
+                    </ul>
+                </div>
+
+                <div class="review-wrap">
+
+                    <div class="review-txt">
+
+                        <ul class="star-rate">
+                            <li><img src="img/product/star.png" alt="별점"></li>
+                            <li><img src="img/product/star.png" alt="별점"></li>
+                            <li><img src="img/product/star.png" alt="별점"></li>
+                            <li><img src="img/product/star.png" alt="별점"></li>
+                            <li><img src="img/product/star.png" alt="별점"></li>
+                        </ul>
+
+                        <div class="review-des">
+                            <p>
+                                젤리팟 색감도 너무 좋고 키링처럼 생겨서 너무 귀여워요! <br> 양조절 잘해서 살살 바르면 자연스럽게 표현되서 너무 예뻐요!
+                            </p>
+                            <p class="user-info">
+                                이*은 <br>
+                                2024. 10. 16 - 구매옵션 JC01 허니피치 HONEY PEACH
+                            </p>
+                        </div>
+
+
+                    </div>
+
+
+                    <p class="more-btn"><a href="#">리뷰 더보기</a></p>
+
+
+
+                </div>
+
+                <div class="detail-img">
+                    <img src="img/product/detailcut.png" alt="제품상세페이지">
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="right"> <!-- sticky 구매옵션창 -->
+
+            <div class="sec-txt">
+                <h2>립앤치크 글로이 젤리팟</h2>
+                <p class="txt1">온라인 단독 할인 <span>25%</span></p>
+                <p class="price">16,500원 <span>22,000원</span></p>
+                <p class="stock">최소주문수량 1개 / 최대주문수량 30개 이하</p>
+            </div>
+
+            <div class="sec-option">
+                <p>컬러 비교 (색상별로 발색시 톤을 확인해보세요.)</p>
+                <ul class="color-chart">
+                    <li class="circle c1">1</li>
+                    <li class="circle c2">2</li>
+                    <li class="circle c3">3</li>
+                    <li class="circle c4">4</li>
+                    <li class="circle c5">5</li>
+                    <li class="circle c6">6</li>
+                    <li class="circle c7">7</li>
+                    <li class="circle c8">8</li>
+                    <li class="circle c9">9</li>
+                    <li class="circle c10">10</li>
+                    <li class="circle c11">11</li>
+                    <li class="circle c12">12</li>
+                    <li class="circle c13">13</li>
+                    <li class="circle c14">14</li>
+                    <li class="circle c15">15</li>
+                    <li class="circle c16">16</li>
+                    <li class="circle c17">17</li>
+                    <li class="circle c18">18</li>
+                    <li class="circle c19">19</li>
+                </ul>
+
+                <ul class="color-img">
+
+                    <li class="color-box">
+                        <img src="img/product/JC01.jpg" alt="jc01">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JC02.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JC03.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JM01.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JM02.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JM03.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JN01.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JN02.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JN03.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JP01.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JP02.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JP03.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JR01.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JR02.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JR03.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JS01.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JS02.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+
+                    <li class="color-box">
+                        <img src="img/product/JS03.jpg" alt="">
+                        <p>JC01</p>
+                    </li>
+                </ul>
+
+                <div class="select">
+                    <select name="color" id="color-select">
+                        <option value="">-[필수] 컬러를 선택해주세요-</option>
+                        <option value="JC01">JC01</option>
+                        <option value="JC02">JC02</option>
+                        <option value="JC03">JC03</option>
+                        <option value="JM01">JM01</option>
+                        <option value="JM02">JM02</option>
+                        <option value="JM03">JM03</option>
+                        <option value="JN01">JN01</option>
+                        <option value="JN02">JN02</option>
+                        <option value="JN03">JN03</option>
+                        <option value="JP01">JP01</option>
+                        <option value="JP02">JP02</option>
+                        <option value="JP03">JP03</option>
+                        <option value="JR01">JR01</option>
+                        <option value="JR02">JR02</option>
+                        <option value="JR03">JR03</option>
+                        <option value="JS01">JS01</option>
+                        <option value="JS02">JS02</option>
+                        <option value="JS03">JS03</option>
+                    </select>
+                </div>
+
+                <div class="btn">
+                    <p><a href="#">BUY NOW</a></p>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="img/product/heart.png" alt="찜"></a>
+
+                        </li>
+
+                        <li>
+                            <a href="#"><img src="img/product/cart.png" alt="장바구니"></a>
+
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <div class="others-wrap">
+
+                    <ul class="others">
+                        <h3>다른 고객이 함께 본 상품이에요!</h3>
+
+                        <li class="others-box">
+                            <div class="img-box">
+                                <img src="img/product/others01.png" alt="에그핏 쿠션">
+                                <img class="heart" src="img/product/heart-outline.png" alt="찜">
+                            </div>
+
+                            <div class="others-des">
+                                <h4>퓌 쿠션 에그핏 커버</h4>
+                                <p>19,600원 <span>28,000원</span></p>
+                            </div>
+                        </li>
+
+                        <li class="others-box">
+                            
+                            <div class="img-box">
+                                <img src="img/product/others02.png" alt="푸딩팟">
+                                <img class="heart" src="img/product/heart-outline.png" alt="찜">
+                            </div>
+
+                            <div class="others-des">
+                                <h4>퓌 립앤치크 <br>블러리 푸딩팟 </h4>
+                                <p>22,000원 <span>16,500원</span></p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+    <footer>
+
+        <div class="inner">
+
+            <div class="footer-top">
+
+                <div class="img-box">
+                    <img src="../img/fwee_logo.png" alt="logo">
+                </div>
+
+                <nav class="link">
+                    <a href="#">홈</a>
+                    <a href="#">회사소개</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">개인정보처리방침</a>
+                    <a href="#">이용안내</a>
+                </nav>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    CUSTOMER CENTER 080-850-6662 | 10:00 - 17:00 (점심시간 12:00 ~ 13:00)
+                    <br> 상호명(주)비나우 | 대표자 이일주 김대영 | 사업자 등록번호 833-87-01017 | 통신판매업신고번호 2021-서울서초-4230 <span><a
+                            href="#">[사업자정보확인]</a></span> | 고객센터 080-850-6662 <br>
+                </p>
+
+                <p>
+                    주소 06615 서울특별시 서초구 서초대로 411 (서초동) GT TOWER 4층, 7층, 14층 | 개인정보보호책임자 <span>안재빈
+                        (jbahn@benow.co.kr)</span><br>
+                </p>
+
+                <p>
+                    홍보 및 제휴 문의 <span>marketing@benow.co.kr</span> | 해외수출 및 기타문의 <span>sales@benow.co.kr</span><br>
+                </p>
+
+                <p>
+                    * fwee에서 제공하는 모든 컨텐츠는 저작권법에 보호받는 저작물로서, 무단으로 복제, 배포하는 경우에는 저작권법에 의하여 처벌을 받을 수 있습니다.
+                </p>
+
+                <p class="caption">
+                    Copyright &copy; 2023 fwee. All rights reserved.
+                </p>
+            </div>
+        </div>
+
+    </footer> <!-- footer -->
+
+</body>
+
+</html>
