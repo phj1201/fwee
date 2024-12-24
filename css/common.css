@@ -50,14 +50,20 @@ li {
     (영)font-family: "Norman Regular"; 
 */
 
-@font-face {
+/* @font-face {
     font-family: 'Norman Regular';
     src: url('font/Norman Regular.otf');
     src: url('font/Norman Regular.otf') format('embedded-opentype');
+} */
+
+@font-face {
+    font-family: 'Norman';
+    src: url('../font/Norman.eot') format('embedded-opentype'), url('../font/Norman.woff') format('woff');
 }
 
 .eng {
-    font-family: 'Norman Regular';
+    /* font-family: 'Norman Regular'; */
+    font-family: 'Norman';
     font-weight: 600;
     color: #0095D3;
 }
