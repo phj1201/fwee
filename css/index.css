@@ -171,7 +171,19 @@ section .con2 .tit-txt p {
     left: 17%;
 }
 
-.con2 .look-wrap .look-tit img {
+.con2 .look-wrap .look-tit .slider {
+    outline: 2px solid red;
+    width: 440px;
+    height: 690px;
+    /* overflow: hidden; */
+}
+
+.con2 .look-wrap .look-tit .slider li {
+    
+}
+
+
+.con2 .look-wrap .look-tit .slider li img {
     display: block;
     border-radius: 30px;
 }
