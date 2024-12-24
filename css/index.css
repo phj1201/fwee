@@ -178,12 +178,16 @@ section .con2 .tit-txt p {
     /* overflow: hidden; */
 }
 
-.con2 .look-wrap .look-tit .slider li {
-    
+.look-tit .viewer {
+    width: 440px;
+    height: 690px;
+    overflow: hidden;
 }
 
+.look-tit .viewer .slider {}
+.look-tit .viewer .slider li {}
 
-.con2 .look-wrap .look-tit .slider li img {
+.look-tit .slider li img {
     display: block;
     border-radius: 30px;
 }
@@ -216,7 +220,6 @@ section .con2 .tit-txt p {
 
 .look-wrap .look-box .des p {
     color: #fff;
-
 }
 
 .look-wrap .look-box .btn-more img {
@@ -257,12 +260,10 @@ section .con2 .tit-txt p {
 }
 
 .con3 .bg {
-
     /* outline: 2px solid red; */
     width: 1130px;
     height: 100%;
     margin: 0 auto;
-
 }
 
 .con3 .tit-txt {
@@ -284,11 +285,9 @@ section .con2 .tit-txt p {
 }
 
 .con3 .evt-wrap .evt-review {
-
    border-radius: 20px;
    position: relative;
    overflow: hidden;
-   
 }
 
 .con3 .evt-wrap .evt-review:hover img {
@@ -454,19 +453,15 @@ section .con2 .tit-txt p {
 }
 
 .next-btn .btn .left {
-    
     float: left;
-
     position: absolute;
     top: 36%;
     left: -15%;
-
 }
 
 .next-btn .btn .right {
     /* outline: 2px solid red; */
     float: right;
-
     position: absolute;
     top: 36%;
     right: -15%;

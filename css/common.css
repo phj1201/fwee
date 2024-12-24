@@ -53,12 +53,12 @@ li {
 @font-face {
     font-family: 'Norman Regular';
     src: url('font/Norman Regular.otf');
-    src: url('font/Norman Regular.otf') format('embedded-opentype'), url('font/Norman.woff') format('woff'), url('font/Norman.woff2')format('woff2');
+    src: url('font/Norman Regular.otf') format('embedded-opentype');
 }
 
 .eng {
-    font-family: 'Norman';
-    font-weight: 500;
+    font-family: 'Norman Regular';
+    font-weight: 600;
     color: #0095D3;
 }
 
@@ -155,7 +155,6 @@ header .header-bottom .gnb {
 header .header-bottom .gnb a {
     color: #fff;
     font-size: 18px;
-    
 }
 
 .header-bottom nav .gnb>li {

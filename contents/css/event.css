@@ -129,9 +129,11 @@
 }
 
 .event .img-box .badge {
+
     display: block;
-    background-color: #0095D3;
-    color: white;
+    background-color: #fff;
+    color: #0095D3;
+    
     font-size: 18px;
     font-weight: 500;
     padding: 5px 20px;
@@ -140,7 +142,7 @@
     position: absolute;
     top: 6%;
     right: 4%;
-    
+    box-shadow: 0 0 10px #d9d9d9; 
 }
 
 .event-wrap .card{
