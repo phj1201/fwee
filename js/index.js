@@ -18,15 +18,11 @@ $(document).ready(function () {
 
     /* 
 
-
         $('.product-card .box img').mouseenter (function(){
             $(this).attr('src', '_model' + '.png')
         }, (function (){
             $(this).
         });
-
-
-        
     
     */
 
