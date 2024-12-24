@@ -16,14 +16,13 @@ $(document).ready(function () {
 
     //mouseenter/leave 사진이미지 변환
 
-    //hover한 부분의 img 파일 찾기
-    //hover한 부분의 img 주소값 src 가져오기
+    /* 
+        $('.product-card .box img').mouseenter (function(){
+            $(this).attr('src', '')
+        });
+    
+    */
 
-    /* $('.product-card .box').mouseenter(function () {
-        $(this).find('img').attr('src', 'img' + '_model.png').stop();
-    }).mouseleave(function () {
-        $(this).find('img').attr('src', 'black');
-    }); */
-
+   
 });
 

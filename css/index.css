@@ -81,6 +81,10 @@
         display: block;
     }
 
+    .con1 .product-card .box .hidden {
+        display: none;
+    }
+
     .con1 .product-card .box .badge {
         position: absolute;
         right: 5%;

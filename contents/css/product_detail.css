@@ -2,7 +2,7 @@
 
 
 section {
-    outline: 2px solid plum;
+    /* outline: 2px solid plum; */
     width: 1280px;
     margin: 0 auto;
 }
@@ -52,13 +52,9 @@ section article.left {
     box-shadow: -5px 5px 10px #d9d9d9;
 }
 
-
 .left .wrap .slider .slider-wrap li img {
     display: block;
 }
-
-
-.wrap .list-btn {}
 
 .wrap .list-btn ul {
     /* outline: 2px solid blue; */
@@ -84,12 +80,17 @@ section article.left {
 .wrap .list-btn ul li a {
     width: 100%;
     color: #fff;
+    font-weight: 500;
    /*  outline: 2px solid blue; */
 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.wrap .list-btn ul li a:hover {
+    color: #C8183E;
 }
 
 .wrap .fav {
@@ -103,7 +104,6 @@ section article.left {
     transform: translateX(-50%);
 
     border-radius: 30px;
-
     color: white;
 }
 
@@ -128,12 +128,10 @@ section article.left {
     margin-right: 0;
 }
 
-
 .wrap .review-wrap .review li img {
     border-radius: 20px;
     overflow: hidden;
 }
-
 
 .wrap .btn .left {
     /* outline: 2px solid red; */
@@ -218,6 +216,7 @@ section article.left {
 }
 
 /* right (구매옵션창) ***************************/
+
 section article.right {
     float: right;
     width: 35%;
@@ -230,7 +229,6 @@ section article.right {
 
     margin-top: 30px;
     margin-bottom: 140px;
-
 
     position: sticky;
     top: 110px;
@@ -407,8 +405,8 @@ section .right .sec-option p {
     color: #fff;
 }
 
-.right .sec-option .btn p a:hover {
-    color: #C8183E;
+.right .sec-option .btn p:hover {
+    background-color: #C8183E;
 }
 
 .right .sec-option .btn ul { 
