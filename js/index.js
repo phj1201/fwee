@@ -16,16 +16,19 @@ $(document).ready(function () {
 
     //mouseenter/leave 사진이미지 변환
 
-    /* 
+    /* $('.product-card .box img').hover(function(){
+        //mouseenter()
+        $(this).attr('src' + '_model.png');
 
-        $('.product-card .box img').mouseenter (function(){
-            $(this).attr('src', '_model' + '.png')
-        }, (function (){
-            $(this).
-        });
+    },function(){
+        //mouseleave()
+        $(this).attr('src'+ '');
+    });
+     */
+
+
+
+
     
-    */
-
-   
 });
 
