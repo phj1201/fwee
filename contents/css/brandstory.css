@@ -38,14 +38,15 @@ main .video-box video{
 }
 
 .con1 .des h2 {
-    margin-bottom: 26px;
-    font-size: 36px;
+    margin-bottom: 30px;
+
+    font-size: 40px;
     color: #0095D3;
 }
 
 .con1 .des p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .con1 .bg {
@@ -137,6 +138,7 @@ main .video-box video{
     /* outline: 2px solid red; */
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 0;
 }
 
 .con3 .des {
@@ -146,7 +148,7 @@ main .video-box video{
 
 .con3 .des h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 40px;
     color: #0095D3;
 }
 
@@ -155,22 +157,23 @@ main .video-box video{
 }
 
 .con3 .time-line {
-    /* outline: 3px solid rgb(0, 255, 123); */
     background-color: #0095D3;
+    
 }
 
 .con3 .time-line .line {
+    /* outline: 2px solid yellow; */
     color: white;
     width: 1440px;
     padding: 100px 0;
     margin: 0 auto;
-    
 }
 
 .line .line-list {
-    outline: 4px solid rgb(225, 255, 0);    
+    height: 400px;
+    width: 150px;
     position: relative;
-    left: 12%;
+    left: 14%;
 }
 
 .line .line-list~.line-list {
@@ -183,23 +186,54 @@ main .video-box video{
 
 .line .line-list .txt h3 {
     text-align: center;
-    font-size: 24px;
-    line-height: 4rem;
+    font-size: 32px;
+    margin-bottom: 30px;
 }
 
-.line .line-list .txt img {
-    outline: 2px solid green;
+.line .line-list .txt .txt-top img {
+    /* outline: 2px solid green; */
+    height: 100px;
     display: block;
-    margin: 0 20px;
+    margin: 0 auto;
 }
 
 .line .line-list .txt p {
-    outline: 4px solid blue;
     text-align: center;
     margin: 30px 0;
 }
 
-.con3 .time-line .btn {
+/* .line-list .txt .txt-top {}
+.line-list .txt .txt-top h3 {}
+.line-list .txt .txt-top img {}
+.line-list .txt .txt-top p {} */
+
+.line-list .txt .txt-btm {
+    display: inline-block;
+    /* outline: 1px solid blue; */
+    position: relative;
+}
+
+.line-list .txt .txt-btm {
+   position: relative;
+   left: 20px;
+}
+
+.line-list .txt .txt-btm span {
+   font-size: 1.2rem;
+   /* outline: 2px solid green; */
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.line-list .txt .txt-btm img {
+    margin: 0 auto;
+}
+
+/* btn */
+/* .con3 .time-line .btn {
     background-color: lavender;
 }
 
@@ -224,5 +258,4 @@ main .video-box video{
     transform: translate(-50%, -50%);
 
 }
-
-
+*/

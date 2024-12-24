@@ -71,6 +71,8 @@
         margin-bottom: 30px;
     }
 
+
+
     .con1 .product-card .box:nth-child(3n) {
         margin-right: 0;
     }
@@ -115,6 +117,10 @@
         color: #78D7FF;
         font-size: 24px;
         margin-bottom: 5px;
+    }
+
+    .con1 .product-card .box .des h3 a {
+        color: #78D7FF;
     }
 
     .con1 .product-card .box .des p  {
@@ -364,7 +370,6 @@ section .con2 .tit-txt p {
     font-size: 18px;
     margin-top: 10px;
 }
-
 
 /* content 04********************************************** */
 
