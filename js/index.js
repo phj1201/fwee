@@ -4,11 +4,11 @@ $(document).ready(function () {
 
     //con1 마우스 호버시 사진 변환
 
-    $('.product-card .box').mouseenter(function (){
-        $(this).find('img').attr('src', )
-    }).mouseleave(function (){
-        $(this).find('img').attr('src', )
-    });
+    // $('.product-card .box img').mouseenter(function (){
+    //     $(this).attr('src').replace('.png', '_model.png');
+    // }).mouseleave(function (){
+    //     $(this).attr('src', $(this).attr('src').replace('_model.png', '.png')); 
+    // });
 
     //con2 모델이미지 자동 fade slide - 제품 이미지 변환
         var autoCall;
@@ -19,25 +19,56 @@ $(document).ready(function () {
         }).mouseout(function(){
             autoCall = setInterval(fadeSlide, 3000);
         });
-
+ 
         function fadeSlide (){
-            var firstSlide = $('.viewer .slide').first();
+            var firstSlide = $('.viewer .slider').first();
             var nextSlide = firstSlide. next();
 
             nextSlide.hide().addClass('active').fadeIn(800, function (){
-                $('.viewer').append(firstSlide);
+                $('.slider li').append(firstSlide);
                 firstSlide.removeclass('active');
             });
         }
 
-    //con3 이벤트 더보기 버튼 클릭시 - event.html로 이동
+    //con3 이벤트 호버 시 des 나옴
 
-        $('.look-box .txt-more').click(function () {
-            $('.look-box .txt-more a')
+        $('.con3 .evt-wrap .evt-box').mouseover(function () {
+            $('.con3 .evt-wrap .evt-box .des').show();
+        }) .mouseout(function (){
+            $('.con3 .evt-wrap .evt-box .des').hide();
         });
 
     //con4 릴스 이전/다음 버튼 클릭시 slide
 
-        $('.reels-box .shorts').
+        //$('.reels-box .shorts').
+        $(function () { 
+
+            //초기
+            $('.next-btn .left').click(function () { 
+                //slide(false);
+                slide(0);
+            });
+        
+            $('.next-btn .right').click(function () { 
+                //slide(true);
+                slide(1);
+                change(); //함수 호출
+            });
+        
+        });
+        
+        function slide (direction) { 
+        
+            if (direction) {
+                //before(), after() 적용시
+                $('.reels-box .shorts').first().insertAfter($('.reels-box .shorts').last());
+        
+            } else { 
+                //이전 이동 - 맨 뒤의 li를 맨 앞으로 이동
+                $('.reels-box .shorts').last().insertBefore($('.reels-box .shorts').first());
+
+            }
+        
+        }
 });
 
