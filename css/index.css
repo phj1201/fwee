@@ -423,15 +423,12 @@ section .con2 .tit-txt p {
 }
 
 .reels-wrap {
-    /* outline: 2px solid green; */
     width: 1130px;
     height: 640px;
-    /* overflow: hidden; */
     position: relative;
 }
 
 .reels-box {
-    outline: 1px solid green;
     width: 1130px;
     height: 640px;
     overflow: hidden;
