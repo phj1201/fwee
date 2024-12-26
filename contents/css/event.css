@@ -156,7 +156,7 @@
     height: 150px;
     padding: 25px 40px;
     border-radius: 20px;
-    box-shadow: -5px 5px 10px #c3c3c3;
+    box-shadow:  0 0 20px #d9d9d9;
     word-break: keep-all;
 
     position: absolute;
@@ -184,6 +184,10 @@
     font-weight: 800;
 }
 
+
+
+/* btn */
+
 .btn-more {
     background-color: lavender;
     display: inline-block;
@@ -198,7 +202,6 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 
