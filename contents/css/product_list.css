@@ -86,11 +86,6 @@
     color: #333;
 }
 
-.con2 .slider-des {
-
-    /* position: relative; */
-
-}
 
 .slider-des .caption {
     background-color: #fff;
@@ -288,4 +283,8 @@
     color: white;
     font-size: 18px;
 
+}
+
+.btn-more:hover {
+    background-color:#C8183E;
 }

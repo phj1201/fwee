@@ -1,51 +1,5 @@
 @charset "utf-8";
 
-/* store.css */
-
-/* .con1-wrap {
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-}
-
-.con1-wrap .con1 {
-    width: 100%;
-    max-width: 1920px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.con1 .main {
-    position: relative;
-}
-
-.main-caption .agit-logo {
-    display: block;
-    float: left;
-
-    position: absolute;
-    top: 20%;
-    left: 10%;
-}
-
-.main-caption .main-txt {
-    text-align: center;
-    line-height: 34px;
-    font-size: 20px;
-    font-weight: 400;
-
-    position: absolute;
-    bottom: 25%;
-    left: 10%;
-}
-
-.main-caption .main-txt p {
-    margin-bottom: 60px;
-}
-
-.main-caption .main-txt p span {
-    color: #C8183E;
-} */
 
 .con1-wrap {
     width: 100%;
@@ -99,12 +53,12 @@
 
 .con2 .left-box .img-box.box1 {
     border-radius: 30px 30px 0px 30px;
-    box-shadow: -5px 5px 20px #c3c3c3;
+    box-shadow: -5px 5px 20px #d9d9d9;
 }
 
 .con2 .left-box .img-box.box3 {
     border-radius: 30px 0px 30px 30px;
-    box-shadow: -5px 5px 20px #c3c3c3;
+    box-shadow: -5px 5px 20px #d9d9d9;
 }
 
 .con2 .left-box .img-box img{
@@ -152,7 +106,7 @@
 
 .con2 .right-box .img-box.box2 {
     border-radius: 0px 30px 30px 0px;
-    box-shadow: 5px 5px 20px #c3c3c3;
+    box-shadow: 5px 5px 20px #d9d9d9;
 }
 
 .con2 .right-box .des {
@@ -283,7 +237,7 @@
 .location .store-des {
     background-color: #fff;
     border-radius: 20px;
-    box-shadow: -5px 5px 20px #cccccc;
+    box-shadow: 0px 5px 20px #ddd;
     width: 450px;
     padding: 30px 40px;
 

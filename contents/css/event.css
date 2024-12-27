@@ -185,7 +185,6 @@
 }
 
 
-
 /* btn */
 
 .btn-more {
@@ -209,5 +208,9 @@
     color: white;
     text-align: center;
     font-size: 20px;
+}
+
+.btn-more:hover {
+    background-color: #C8183E;
 }
     
