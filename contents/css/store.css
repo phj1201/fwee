@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 .con1-wrap {
     width: 100%;
     height: 1080px;
@@ -30,7 +29,7 @@
     transform: translate(-50%, -50%);
 }
 
-/* con2 /////////////////////////////////////////////////////////  */
+/* con2 ///////////////////////////////////////////////////  */
 
 .con2-wrap {
     width: 1280px;
@@ -40,8 +39,9 @@
 .con2 .left-box {
     width: 100%;
     float: left;
-
     position: relative;
+
+    /* display: none; */
 }
 
 .con2 .left-box .img-box {
@@ -89,6 +89,7 @@
 .con2 .right-box {
     width: 100%;
     position: relative;
+   /*  display: none; */
 }
 
 .con2 .right-box .img-box { 
@@ -229,9 +230,15 @@
     border-radius: 20px;
     overflow: hidden;
 }
+
 .location .img-box img {
     width: 100%;
     display: block;
+}
+
+.location .img-box img:hover {
+    transform: scale(1.1);
+    transition: all 0.8s;
 }
 
 .location .store-des {
