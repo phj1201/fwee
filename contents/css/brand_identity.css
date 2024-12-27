@@ -224,6 +224,18 @@ main .video-box video{
     clear: both;
 }
 
+.cap1 .img1 {
+    display: none;
+    z-index: 1;
+}
+.cap2 .img2 {
+    display: none;
+    z-index: 1;
+}
+.cap3 .img3 {
+    display: none;
+}
+
 .box .box-txt .card {
     width: 350px;
     float: right;
@@ -234,6 +246,7 @@ main .video-box video{
     bottom: 50%;
     right: 15%;
     transform: translateY(50%);
+    box-shadow: 0 0 10px #d9d9d9;
 }
 
 .box .box-txt .card img {
