@@ -40,7 +40,6 @@ $(document).ready(function () {
 
     //con4 릴스 이전/다음 버튼 클릭시 slide
 
-    //$('.reels-box .shorts').
     $(function () {
 
         //초기

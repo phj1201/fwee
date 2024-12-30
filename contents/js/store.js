@@ -12,18 +12,17 @@
 
     $(document).ready(function () {
 
-        $('.left-box').find('.img-box').animate({
-            width:'50%' 
-        }, 800, function(){
+        $('.con2 .left-box').find('.img-box').animate({
+            width:'50%'
+        }, 800, function (){
             $('.left-box').find('.des').fadeIn(600);
-        }); //콜백함수
+        });
 
-
-        $('.right-box').find('.img-box').animate({
-            width:'50%' 
-        }, 800, function(){
+        $('.con2 .right-box').find('.img-box').animate({
+            width:'50%'
+        }, 800, function (){
             $('.right-box').find('.des').fadeIn(600);
-        }); //콜백함수
+        });
 
     });
     
