@@ -351,7 +351,7 @@ section .right .sec-option p {
 }
 
 .right .sec-option .color-img {
-    /* outline: 2px solid red; */
+   /*  outline: 2px solid red; */
     width: 350px;
     height: 350px;
     overflow: hidden;
@@ -359,10 +359,13 @@ section .right .sec-option p {
     position: relative;
 }
 
+.right .sec-option .color-img .color-box {
+  
+}
+
 .right .sec-option .color-img .color-box img {
     border-radius: 20px;
-    width: 350px;
-    height: 350px;
+    width: 100%;
 }
 
 .right .sec-option .color-img .color-box p {

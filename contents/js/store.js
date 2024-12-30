@@ -12,17 +12,16 @@
 
     $(document).ready(function () {
 
-        $('.con2 .left-box').find('.img-box').animate({
+        $('.card').find('.img-box').animate({
             width:'50%'
         }, 800, function (){
-            $('.left-box').find('.des').fadeIn(600);
+            $('.card').find('.des').fadeIn(600);
         });
 
-        $('.con2 .right-box').find('.img-box').animate({
-            width:'50%'
-        }, 800, function (){
-            $('.right-box').find('.des').fadeIn(600);
-        });
+        
+
+
+        //스크롤시 순서대로 나타나기
 
     });
     
