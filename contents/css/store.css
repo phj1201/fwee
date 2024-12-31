@@ -164,6 +164,7 @@
 }
 
 .con3 .insta-wrap {
+    /* outline: 2px solid red; */
     width: 1280px;
     margin: 0 auto;
 }
@@ -173,7 +174,14 @@
     overflow: hidden;
 }
 
+.con3 .insta-wrap li .img-box {
+    width: 256px;
+    outline: 2px solid blue;
+}
+
 .con3 .insta-wrap li img{
+
+    width: 100%;
     display: block;
 }
 

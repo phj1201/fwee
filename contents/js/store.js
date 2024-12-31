@@ -10,7 +10,7 @@
 
 */
 
-$(document).ready(function () {
+$ (function () {
 
     var Rbox = $('.right-box');
     var Lbox = $('.left-box');

@@ -181,6 +181,9 @@ section .con2 .tit-txt p {
     /* overflow: hidden; */
 }
 
+
+/* 룩북 섹션 slide 구현 */
+
 .look-tit .viewer {
     width: 440px;
     height: 690px;
@@ -191,6 +194,8 @@ section .con2 .tit-txt p {
 
 .look-tit .viewer .slider li {}
 
+
+
 .look-tit .slider li img {
     display: block;
     border-radius: 30px;
@@ -199,6 +204,10 @@ section .con2 .tit-txt p {
 .look-wrap .look-box {
     position: relative;
     margin-bottom: 20px;
+}
+
+.look-wrap .look-box:hover .des {
+    display: none;
 }
 
 .look-wrap .look-box.look-box:nth-child(2n) {
@@ -443,6 +452,10 @@ section .con2 .tit-txt p {
     width: 360px;
     overflow: hidden;
     margin-right: 16px;
+}
+
+.reels-box .shorts:hover .play-btn{
+    display: none;
 }
 
 .reels-box .shorts video {
