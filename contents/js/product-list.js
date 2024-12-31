@@ -8,7 +8,7 @@ $(document).ready(function(){
         evt.preventDefault();
         var hBox = $('.card:hidden').length;
         if (hBox === 0) {
-            alert('마지막 내용입니다!');
+            alert('마지막 상품입니다!');
             return false;
         }
 
