@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 
     $('.event').hide();
@@ -17,7 +19,7 @@ $(document).ready(function(){
         var offTop = $(this).offset().top;
         $('html, body').animate({
             scrollTop : offTop
-        }, 1500);
+        }, 1600);
  
     })
 

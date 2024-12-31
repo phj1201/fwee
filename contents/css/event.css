@@ -83,6 +83,12 @@
     left: 20%;
 }
 
+.con2 .event-btn .ongoing p a:hover {
+    color: #C8183E;
+    font-weight: 600;
+}
+
+
 .con2 .event-btn .ended {
     text-align: center;
     position: relative;
@@ -98,6 +104,11 @@
     position: absolute;
     top: 25%;
     left: 27%;
+}
+
+.con2 .event-btn .ended p a:hover {
+    color:#C8183E;
+    font-weight: 600;
 }
 
 .event-wrap .event {
@@ -143,11 +154,6 @@
     top: 6%;
     right: 4%;
     box-shadow: 0 0 10px #d9d9d9; 
-}
-
-.event-wrap .card{
-    /* load-more 초기 설정 */
-    /* display: none; */
 }
 
 .event .event-des {
