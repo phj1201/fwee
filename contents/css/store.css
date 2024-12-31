@@ -43,7 +43,8 @@
 }
 
 .con2 .left-box .img-box {
-    width: 640px;
+    /* width: 640px; */
+    width: 0px;
     height: 740px;
     overflow: hidden;
 }
@@ -60,8 +61,8 @@
 
 .con2 .left-box .img-box img{
     width: 100%;
-    width: 640px;
-    height: 740px;
+    height: 100%;
+  
 }
 
 .con2 .left-box .des {
@@ -90,7 +91,7 @@
 }
 
 .con2 .right-box .img-box { 
-    width: 640px;
+    width: 0px;
     height: 740px;
     overflow: hidden;
     float: right;
@@ -98,9 +99,7 @@
 
 .con2 .right-box .img-box img{
     width: 100%;
-    width: 640px;
     height: 740px;
-    
 }
 
 .con2 .right-box .img-box.box2 {

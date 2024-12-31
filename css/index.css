@@ -71,6 +71,9 @@ section .con1 .tit-txt p {
     margin-bottom: 30px;
 }
 
+.con1 .product-card .box:hover .des {
+    display: none;
+}
 
 
 .con1 .product-card .box:nth-child(3n) {
@@ -206,6 +209,7 @@ section .con2 .tit-txt p {
     display: block;
     border-radius: 30px;
 }
+
 
 .look-wrap .look-box .des {
     /* outline: 1px solid red; */
